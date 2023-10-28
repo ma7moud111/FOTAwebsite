@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Services</title> 
+    <link rel="stylesheet" href="servicestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">M_Sh Bootloader</a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">LED Control</div>
+    <h3> <a href="newphp.php?status=on" style="color: #82ef0d;"><center>Turn On</center></a>  </h3>
+    <h3> <a href="newphp.php?status=off" style="color: rgb(253, 92, 92);"><center>Turn Off</center></a>  </h3>
+    <br><br>
+
+    <div class="title">File Uploading</div>
+    <form method="POST" enctype="multipart/form-data" action="upload.php">
+
+        <center>
+        <label for="image" style="color: white;">Select the file you want to uplaod (eg: .hex file)</label>
+        <br><br>
+        <input type="file" id="image" name="image">
+        </center>>
+    
+     
+        <center><button style="   height: 55px;
+            width: 170px;
+            border-radius: 5px;
+            border: none;
+            margin: 0 10px;
+            border: 2px solid white;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 0 10px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease;">Upload</button></center>
+    
+    </form>
+  </div>
+</body>
+</html>
